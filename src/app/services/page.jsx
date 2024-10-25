@@ -2,7 +2,7 @@
 const page = () => {
   return (
     <div>
-      This is about page
+      <h1 className="text-center">This is Services Page</h1>
     </div>
   );
 };
