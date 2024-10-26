@@ -23,6 +23,10 @@ const Navbar = () => {
   {
     title  : 'Contact',
     path   : '/contacts'
+  },
+  {
+    title  : 'Blog',
+    path   : '/blogs'
   }
 ];
 
