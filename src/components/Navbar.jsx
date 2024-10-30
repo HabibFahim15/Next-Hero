@@ -27,9 +27,14 @@ const Navbar = () => {
   {
     title  : 'Blog',
     path   : '/blogs'
-  },{
+  },
+  {
     title : 'Categories',
     path  : '/categories'
+  },
+  {
+    title : 'Dashboard',
+    path  : '/dashboard'
   }
 ];
 
