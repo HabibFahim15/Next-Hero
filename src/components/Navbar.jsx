@@ -34,6 +34,13 @@ const handler = () =>{
   router.push('/login')
 }
 
+if(pathName.includes('dashboard'))
+return(
+  <div className='bg-green-700 p-6'>
+    Dashboard Layout.
+  </div>
+)
+
   return (
     <nav className="bg-red-400 flex justify-between px-8 py-8">
           <h6 className="font-bold text-2xl">Next <span className="text-green-600">Hero</span></h6>
