@@ -2,7 +2,7 @@
 const categoriesPage = () => {
   
   return (
-    <div>
+    <div className='h-screen'>
       Categories Page
     </div>
   );
